@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* general */
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+h2 {
+    color: rgb(1, 226, 226);
+}
+
+h1,h2,h3 {
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        margin-right: 10px;
+    }
+
+body {
+    background-image: url(../background-img/azul-img.jpg);
+}
+
+main {
+    padding: 20px 15px;
+}
+
+    main form input {
+        margin-bottom: 10px;
+        text-decoration: none;
+        background-color: white;
+        border: 2px solid rgb(0, 112, 112);
+        border-radius: 6px;
+    }
+
+    main form button {
+        border: 1px solid rgb(1, 226, 226);
+        border-radius: 8px;
+        padding: 5px;
+        color: white;
+    }
+
+input {
+    border: none;
+    outline: none;
+    background-color: transpaacnt;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    padding: 0;
+    background-color: white;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+}
+
+    input:focus {
+        border-color: rgb(1, 226, 226);
+    }
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+    div form button {
+        color: white;
+    }
+
+    button:hover {
+        background-color: rgb(0, 119, 148);
+    }
+
+div ul li {
+    list-style: none;
+}
+
+section div a {
+    text-decoration: none;
+    color: white;
+}
+
+/* caja de juegos */
+section figure{
+    border: 1px solid rgb(0, 112, 112);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    height: max-content;
+}
+
+section figure a {
+    text-decoration: none;
+}
+
+figure p{
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+}
+
+    figure img{
+        transition: .5s ease; 
+    }
+
+    figure img:hover{
+        filter: contrast(115%);
+    }
+
+    figure:hover{
+        filter: drop-shadow(0px 0px 5px rgba(1, 226, 226, 0.5));
+    }
+
+figcaption {
+    width: 100%;
+    border-top: 1px solid rgb(1, 226, 226);
+    border-bottom: 1px solid rgb(1, 226, 226);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 3px;
+    background-color: #112130;
+    transition: all 300ms ease;
+    font-size: .8em;
+}
+
+    figcaption:hover {
+        background-color: rgb(0, 122, 122);
+        
+    }
+
+/* textarea de contacto */
+textarea {
+
+    width: 25%;
+    resize: none;
+    border: 1px solid rgb(0, 244, 244);
+    border-radius: 5px;
+}
+
+    input,textarea {
+        color: rgb(0, 0, 0);
+    }
+
+/* footer */
+footer {
+    width: auto;
+    background-color: #0a141d;
+}
+
+    footer .group2-footer {
+        background-color: #0a1a2a;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+    }
+
+    footer .group2-footer small {
+        font-size: 15px;
+    }
+
+    footer ul li {
+        list-style-type: none;
+        display: inline-block;
+        background-color: #0a1a2a;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    footer ul li a {
+        text-decoration: none;
+    }
+
+.footer .group1-footer {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 10px;
+}
+
+    .group1-footer .box h2 {
+        font-size: 20px;
+    }
+
+    .red-social h2 {
+        font-size: 20px;
+    }
+
+    .group1-footer .box p {
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+
+    .group1-footer .red-social a {
+        display: inline-block;
+        text-decoration: none;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin: 20px 10px;
+        background-color: #0d2033;
+        text-align: center;
+        transition: 300ms ease;
+    }
+
+    .group1-footer .red-social a:hover {
+        background-color: aqua;
+    }
+
+    .group3-footer ul li:hover {
+        background-color: rgb(16, 124, 124);
+        transition: all 300ms ease;
+    }
+
+    .group3-footer ul {
+        padding: 0;
+    }
+
+    .group3-footer ul li a {
+        color: white;
+    }
+    
+/* nav-responsive */
+.botonera {
+    background-color: #0a1a2a;
+    padding: 4px 30px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    position: sticky;
+    flex-direction: row;
+    z-index: 99;
+}
+    .botonera img {
+        width: 150px;
+    }
+    
+    .botonera a {
+        color: rgb(255, 255, 255);
+        transition: color 0.3s ease-in-out;
+    }
+    
+    .botonera div ul li a:hover {
+        color: aqua;
+        
+    }
+
+.button-burger {
+    background-color: aqua;
+}
+
+.logo {
+    width: 200px
+}
+
+/* header */
+.carousel-control-next:hover, 
+.carousel-control-prev:hover{
+    background-color: transparent;
+    }
+
+.img-notice {
+    width: 100%;
+}
+
+.header-top{
+    position: sticky;
+    z-index: 99;
+    top: 0;
+}
+
+/* index */
+.container-games {
+    padding: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.div-h2-games {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.button-right-index {
+    border: 2px solid rgb(1, 226, 226);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    font-family: bold;
+    color: rgb(255, 255, 255);
+}
+
+    .button-right-index:hover {
+        background-color: rgb(0, 86, 108);
+        transition: all 300ms ease;
+        
+    }
+
+/* tienda */
+.section-search-store {
+    width: 50%;
+    min-width: max-content;
+}
+.store-img{
+    object-fit: cover;
+    width: 100%;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(0, 244, 244);
+    opacity: 0.9;
+}
+
+.category h3:hover{
+    background-color: rgb(2, 168, 168);
+    transition: all 300ms ease;
+    border-radius: 4px;
+}
+
+/* juegosps4 y juegosps5 */
+.section-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.search-game {
+    padding: 0px 30px;
+}
+
+    .search-game input,.search-game-store input {
+        background-color: rgb(33, 33, 33);
+        color: rgb(213, 213, 213);
+        padding: 0px 4px;
+    }
+
+/* contacto */
+.box-support {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    line-height: 25px;
+}
+
+    .box-support div a {
+        border: 2px solid white;
+        border-radius: 6px;
+        position: relative;
+        top: 10px;
+        padding: 6px
+    }
+
+    .box-support div a:hover {
+        background-color: rgb(1, 87, 87)
+    }
+    .form-contact-email {
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
+
+/* acceso */
+.access {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    width: 100%;
+    top: 10px;
+    position: relative;
+    height: auto;
+}
+
+    .access div input {
+        width: 300px;
+    }
+
+    .h1-access {
+        align-items: center;
+        background-color: #0d2033;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+.div-password {
+    position: relative;
+    top: 20px;
+}
+.img-access {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 60px;
+}
+
+.form-contact div label {
+    display: block;
+}
+
+.acceso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .acceso div label {
+        display: block;
+    }
+    .button-access {
+        position: relative;
+        top: 5px;
+    }
+
+.img-contact {
+    width: 100%;
+}
+
+.main-contact {
+    padding: 20px 5px
+}
+.main-access{
+    padding: 0;
+}
+
+/* nuestros wallpaper */
+.img-fluid:hover{
+    filter:drop-shadow(4px 4px 15px  rgba(2, 208, 201, 0.5));
+}
+
+@media screen and (width < 1367px){
+.container-games,
+.section-games {
+    padding: 0px;
+    gap: 0px;
+}
+
+.container-games figure,
+.section-games figure {
+    width: 30%;
+}
+
+    .container-games figure img,
+    .section-games figure img {
+        width: 90%;
+        margin: 5px;
+    }
+}
+/* pequeño parche */
+@media screen and (max-width: 1523px) and (min-width: 1367px) {
+
+.container-games figure,
+.section-games figure {
+    width: 15%;
+}
+
+    .container-games figure img,
+    .section-games figure img {
+        width: 90%;
+        margin: 5px;
+    }  
+}
+
+@media screen and (width < 768px) {
+/* index */
+nav {
+    flex-direction: column;
+}
+
+main {
+    padding: 0;
+}
+
+textarea{
+    width: auto;
+}
+
+footer {
+    padding: 0 10px;
+}
+
+.main-access {
+    padding: 20px 30px;
+}
+
+.botonera{
+padding: 4px 3px;
+}
+
+    .botonera img {
+        width: 100px;
+    }
+
+.img-notice {
+    display: none;
+
+}
+
+.container-games,
+.section-games {
+    padding: 5px;
+    gap: 0px;
+}
+
+    .container-games figure,
+    .section-games figure {
+        width: 40%;
+    }
+
+    .container-games figure img,
+    .section-games figure img {
+        width: 90%;
+    }
+
+.footer .group1-footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .group1-footer .red-social a {
+        display: inline-block;
+        text-decoration: none;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        margin: 20px 10px;
+        background-color: #0d2033;
+        text-align: center;
+        transition: 300ms ease;
+    }
+
+    .group3-footer ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+
+/* tienda */
+h2 {
+    font-size: 1.2em;
+}
+
+.section-search-store {
+    margin: 0px;
+    width: 100%;
+}
+
+.main-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.category {
+    text-align: center;
+}
+
+.search-game {
+    width: 100%;
+}
+
+    .search-game-store input {
+        width: 100px;
+        background-color: rgb(33, 33, 33);
+        color: rgb(213, 213, 213);
+        padding: 0px 4px;
+    }
+
+    .search-game {
+        display: none;
+    }
+
+/* juegos ps4 y juegos ps5 */
+.section-games {
+    padding: 5px;
+    justify-content: center;
+    gap: 0px;
+}
+
+    .section-games figure {
+        width: 50%;
+    }
+
+    .section-games figure img {
+        width: 90%;
+    }
+
+    .section-games {
+        display: flex;
+    }
+
+/* contacto*/
+.img-contact {
+    width: 100%;
+    display: none;
+}
+
+.box-support {
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.WhatsApp-contact {
+    width: 100%;
+    position: relative;
+}
+
+.support-contact {
+    width: 100%;
+    position: relative;
+}
+
+.access {
+    flex-direction: column;
+    padding: 20px 50px;
+    height: 70vh;
+    text-align: center;
+}
+
+    .access div input {
+        width: auto;
+    }
+
+.img-access {
+    display: none;
+}
+
+}
+
