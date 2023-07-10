@@ -1,0 +1,661 @@
+@charset "UTF-8";
+* {
+  font-family: "Roboto", sans-serif;
+  color: #e9f5ec;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+h2 {
+  color: rgb(1, 226, 226);
+}
+
+h1, h2, h3 {
+  margin: 10px 0px;
+  padding: 5px;
+}
+
+body {
+  background-image: url(../background-img/azul-img.jpg);
+}
+
+main {
+  padding: 20px 15px;
+}
+main form input {
+  margin-bottom: 10px;
+  text-decoration: none;
+  background-color: #0a1a2a;
+  border: 2px solid rgb(0, 112, 112);
+  border-radius: 6px;
+}
+main form button {
+  border: 1px solid rgb(1, 226, 226);
+  border-radius: 8px;
+  padding: 5px;
+  color: #e9f5ec;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: transpaacnt;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding: 0;
+  background-color: #0a1a2a;
+  border-radius: 10px;
+}
+input:focus {
+  border-color: rgb(1, 226, 226);
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #0a1a2a;
+}
+button:hover {
+  background-color: rgb(0, 112, 112);
+}
+
+div form button {
+  color: white;
+}
+
+div ul li {
+  list-style: none;
+}
+
+section div a {
+  text-decoration: none;
+  color: #e9f5ec;
+}
+
+section figure {
+  border: 1px solid rgb(0, 112, 112);
+  box-shadow: 5px 5px 10px #0a1a2a;
+  height: max-content;
+}
+section figure a {
+  text-decoration: none;
+}
+
+figure:hover {
+  filter: drop-shadow(0px 0px 5px rgba(1, 226, 226, 0.5));
+}
+figure p {
+  position: relative;
+  top: 6px;
+  cursor: pointer;
+}
+figure img {
+  transition: 0.5s ease;
+}
+figure img:hover {
+  filter: contrast(115%);
+}
+
+figcaption {
+  width: 100%;
+  border-top: 1px solid rgb(1, 226, 226);
+  border-bottom: 1px solid rgb(1, 226, 226);
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 3px;
+  background-color: #112130;
+  text-decoration: none;
+  transition: all 300ms ease;
+  font-size: 0.8em;
+}
+figcaption:hover {
+  background-color: rgb(0, 112, 112);
+}
+
+footer {
+  width: auto;
+  background-color: #0a141d;
+}
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  background-color: #0a1a2a;
+  padding: 5px 10px;
+  text-align: center;
+}
+footer ul li a {
+  text-decoration: none;
+}
+footer .group1-footer {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 45px 10px;
+}
+footer .group1-footer .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin: 20px 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: 300ms ease;
+}
+footer .group1-footer .red-social a:hover {
+  background-color: rgb(1, 226, 226);
+}
+footer .group1-footer .red-social a h2 {
+  font-size: 20px;
+}
+footer .group1-footer .box h2 {
+  font-size: 20px;
+}
+footer .group1-footer .box p {
+  color: #e9f5ec;
+  margin-bottom: 10px;
+}
+footer .group2-footer {
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #e9f5ec;
+}
+footer .group2-footer small {
+  font-size: 15px;
+}
+
+.group3-footer ul {
+  padding: 0;
+}
+
+.group3-footer ul li:hover {
+  background-color: rgb(0, 112, 112);
+  transition: all 300ms ease;
+}
+
+.group3-footer ul li a {
+  color: #e9f5ec;
+}
+
+.botonera {
+  background-color: #0a1a2a;
+  padding: 4px 30px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  position: sticky;
+  flex-direction: row;
+  z-index: 99;
+}
+.botonera img {
+  width: 150px;
+}
+.botonera ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+.botonera ul li a {
+  text-decoration: none;
+  color: #e9f5ec;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-right: 10px;
+  transition: color 0.3s ease-in-out;
+}
+.botonera ul li a:hover {
+  color: rgb(1, 226, 226);
+}
+
+.button-burger {
+  background-color: rgb(1, 226, 226);
+}
+
+.logo {
+  width: 200px;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  background-color: transparent;
+}
+
+.img-notice {
+  width: 100%;
+}
+
+.header-top {
+  position: sticky;
+  z-index: 99;
+  top: 0;
+}
+
+/* tienda */
+.section-search-store {
+  width: 50%;
+  min-width: max-content;
+}
+
+.store-img {
+  object-fit: cover;
+  width: 100%;
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgb(1, 226, 226);
+  opacity: 0.9;
+}
+
+.category h3:hover {
+  background-color: rgb(0, 112, 112);
+  transition: all 300ms ease;
+  border-radius: 4px;
+}
+
+/* juegosps4 y juegosps5 */
+.section-games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+}
+
+.search-game {
+  padding: 0px 30px;
+}
+
+.search-game input, .search-game-store input {
+  background-color: #0a141d;
+  color: #e9f5ec;
+  padding: 0px 4px;
+}
+
+/*acceso*/
+.access {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  width: 100%;
+  top: 10px;
+  position: relative;
+  height: auto;
+}
+.access div input {
+  width: 300px;
+}
+
+.h1-access {
+  align-items: center;
+  background-color: #0a141d;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-password {
+  position: relative;
+  top: 20px;
+}
+
+.img-access {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 60px;
+}
+
+.form-contact div label {
+  display: block;
+}
+
+.acceso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.acceso div label {
+  display: block;
+}
+
+.button-access {
+  position: relative;
+  top: 5px;
+}
+
+.img-contact {
+  width: 100%;
+}
+
+.main-contact {
+  padding: 20px 5px;
+}
+
+.main-access {
+  padding: 0;
+}
+
+.box-support {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  line-height: 25px;
+}
+.box-support div a {
+  border: 2px solid white;
+  border-radius: 6px;
+  position: relative;
+  top: 10px;
+  padding: 6px;
+}
+.box-support div a:hover {
+  background-color: rgb(0, 112, 112);
+}
+
+.form-contact-email {
+  margin-top: 30px;
+  padding: 0px 20px;
+}
+
+/* textarea de contacto */
+textarea {
+  width: 25%;
+  resize: none;
+  border: 1px solid rgb(1, 226, 226);
+  border-radius: 5px;
+  background-color: transparent;
+}
+textarea:hover {
+  border-color: rgb(1, 226, 226);
+}
+
+/* index */
+.container-games {
+  padding: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.div-h2-games {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.button-right-index {
+  border: 2px solid rgb(1, 226, 226);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #0a1a2a;
+  font-family: bold;
+  color: rgb(255, 255, 255);
+}
+.button-right-index:hover {
+  background-color: rgb(0, 86, 108);
+  transition: all 300ms ease;
+}
+
+/*acceso*/
+.access {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  width: 100%;
+  top: 10px;
+  position: relative;
+  height: auto;
+}
+.access div input {
+  width: 300px;
+}
+
+.h1-access {
+  align-items: center;
+  background-color: #0a141d;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-password {
+  position: relative;
+  top: 20px;
+}
+
+.img-access {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 60px;
+}
+
+.form-contact div label {
+  display: block;
+}
+
+.acceso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.acceso div label {
+  display: block;
+}
+
+.button-access {
+  position: relative;
+  top: 5px;
+}
+
+.img-contact {
+  width: 100%;
+}
+
+.main-contact {
+  padding: 20px 5px;
+}
+
+.main-access {
+  padding: 0;
+}
+
+/* nuestros wallpaper */
+.img-fluid:hover {
+  filter: drop-shadow(4px 4px 15px rgba(2, 208, 201, 0.5));
+}
+
+@media screen and (width < 1367px) {
+  .container-games,
+  .section-games {
+    padding: 0px;
+    gap: 0px;
+  }
+  .container-games figure,
+  .section-games figure {
+    width: 30%;
+  }
+  .container-games figure img,
+  .section-games figure img {
+    width: 90%;
+    margin: 5px;
+  }
+}
+/* pequeño parche */
+@media screen and (max-width: 1523px) and (min-width: 1367px) {
+  .container-games figure,
+  .section-games figure {
+    width: 15%;
+  }
+  .container-games figure img,
+  .section-games figure img {
+    width: 90%;
+    margin: 5px;
+  }
+}
+@media screen and (width < 768px) {
+  /* index */
+  nav {
+    flex-direction: column;
+  }
+  main {
+    padding: 0;
+  }
+  textarea {
+    width: auto;
+  }
+  footer {
+    padding: 0 10px;
+  }
+  .main-access {
+    padding: 20px 30px;
+  }
+  .botonera {
+    padding: 4px 3px;
+  }
+  .botonera img {
+    width: 100px;
+  }
+  .img-notice {
+    display: none;
+  }
+  .container-games,
+  .section-games {
+    padding: 5px;
+    gap: 0px;
+  }
+  .container-games figure,
+  .section-games figure {
+    width: 40%;
+  }
+  .container-games figure img,
+  .section-games figure img {
+    width: 90%;
+  }
+  .group1-footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .group1-footer .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    margin: 20px 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: 300ms ease;
+  }
+  .group3-footer ul {
+    display: flex;
+    justify-content: center;
+  }
+  /* tienda */
+  h2 {
+    font-size: 1.2em;
+  }
+  .section-search-store {
+    margin: 0px;
+    width: 100%;
+  }
+  .main-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .category {
+    text-align: center;
+  }
+  .search-game {
+    width: 100%;
+    display: none;
+  }
+  .search-game-store input {
+    width: 100px;
+    background-color: rgb(33, 33, 33);
+    color: rgb(213, 213, 213);
+    padding: 0px 4px;
+  }
+  /* juegos ps4 y juegos ps5 */
+  .section-games {
+    padding: 5px;
+    justify-content: center;
+    gap: 0px;
+    display: flex;
+  }
+  .section-games figure {
+    width: 50%;
+  }
+  .section-games figure img {
+    width: 90%;
+  }
+  /* contacto*/
+  .img-contact {
+    width: 100%;
+    display: none;
+  }
+  .box-support {
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 20px;
+    line-height: 30px;
+  }
+  .WhatsApp-contact {
+    width: 100%;
+    position: relative;
+  }
+  .support-contact {
+    width: 100%;
+    position: relative;
+  }
+  .access {
+    flex-direction: column;
+    padding: 20px 50px;
+    height: 70vh;
+    text-align: center;
+  }
+  .access div input {
+    width: auto;
+  }
+  .img-access {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

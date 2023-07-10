@@ -1,0 +1,42 @@
+/* tienda */
+.section-search-store {
+    width: 50%;
+    min-width: max-content;
+}
+.store-img{
+    object-fit: cover;
+    width: 100%;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.4);
+    border: 1px solid $maincolor;
+    opacity: 0.9;
+}
+
+.category h3:hover{
+    background-color: $bordercolor;
+    transition: all 300ms ease;
+    border-radius: 4px;
+}
+
+/* juegosps4 y juegosps5 */
+.section-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.search-game {
+    padding: 0px 30px;
+}
+
+    .search-game input,.search-game-store input {
+        background-color: $bgblack1;
+        color: $textcolor;
+        padding: 0px 4px;
+    }

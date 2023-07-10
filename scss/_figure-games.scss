@@ -1,0 +1,44 @@
+section figure{
+    border: 1px solid $bordercolor;
+    box-shadow: 5px 5px 10px $black;
+    height: max-content;
+    a{
+        text-decoration: none;
+    }
+}
+
+figure{
+    &:hover{
+        filter: drop-shadow(0px 0px 5px rgba(1, 226, 226, 0.5));
+    }
+    p{
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+    }
+    img{
+        transition: .5s ease;
+        &:hover{
+            filter: contrast(115%);
+        }
+    }
+}
+
+figcaption {
+    width: 100%;
+    border-top: 1px solid $maincolor;
+    border-bottom: 1px solid $maincolor;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 3px;
+    background-color: #112130;
+    text-decoration: none;
+    transition: all 300ms ease;
+    font-size: .8em;
+    &:hover{
+        background-color: $bordercolor;
+    }
+}
+

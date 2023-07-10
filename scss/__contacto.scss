@@ -1,0 +1,40 @@
+.box-support {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    line-height: 25px;
+    div a{
+        border: 2px solid white;
+        border-radius: 6px;
+        position: relative;
+        top: 10px;
+        padding: 6px;
+        &:hover{
+            background-color: $bordercolor;
+        }
+    }
+}
+    .form-contact-email {
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
+
+/* textarea de contacto */
+textarea {
+
+    width: 25%;
+    resize: none;
+    border: 1px solid $maincolor;
+    border-radius: 5px;
+        background-color: transparent;  
+        &:hover{
+            border-color: $maincolor;
+        }
+}
+
+
+
+
+

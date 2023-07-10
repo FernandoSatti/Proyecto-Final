@@ -1,0 +1,86 @@
+* {
+    font-family:$mainfont;
+    color: $textcolor;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: $textlg;
+}
+
+h2 {
+    font-size: $textmd;
+}
+
+p {
+    font-size: $textsm;
+    line-height: $textsm;
+}
+
+h2 {
+    color: $maincolor;
+}
+
+h1,h2,h3 {
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+body {
+    background-image: url(../background-img/azul-img.jpg);
+}
+
+main {
+    padding: 20px 15px;
+    form input {
+        margin-bottom: 10px;
+        text-decoration: none;
+        background-color:$black;
+        border: 2px solid $bordercolor;
+        border-radius: 6px;
+    }
+    form button {
+        border: 1px solid $maincolor;
+        border-radius: 8px;
+        padding: 5px;
+        color: $textcolor;
+    }
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transpaacnt;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    padding: 0;
+    background-color: $black;
+    border-radius: 10px;
+    &:focus{
+        border-color: $maincolor;
+    }
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    color:$black;
+    &:hover{background-color:$bordercolor};
+}
+    div form button {
+        color: white;
+    }
+
+div ul li {
+    list-style: none;
+}
+
+section div a {
+    text-decoration: none;
+    color:$textcolor;
+}

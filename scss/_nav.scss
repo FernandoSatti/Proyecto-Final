@@ -1,0 +1,39 @@
+.botonera{
+    background-color:$black;
+    padding: 4px 30px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    position: sticky;
+    flex-direction: row;
+    z-index: 99;
+        img{
+            width: 150px;
+        }
+    ul{
+        display: flex;
+        list-style: none;
+        text-align: center;
+    }
+        ul li a{
+            text-decoration: none;
+            color: $textcolor;
+            font-size: 0.9em;
+            font-weight: $textbold;
+            margin-right: 10px;
+            transition: color 0.3s ease-in-out;
+            &:hover{
+                color: $maincolor;
+            }
+        }
+}
+.button-burger{
+    background-color: $maincolor;
+}
+.logo {
+    width: 200px
+}
