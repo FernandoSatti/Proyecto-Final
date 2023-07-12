@@ -6,7 +6,7 @@
     text-align: center;
     line-height: 25px;
     div a{
-        border: 2px solid white;
+        border: 2px solid $bgwhite;
         border-radius: 6px;
         position: relative;
         top: 10px;
@@ -16,14 +16,23 @@
         }
     }
 }
-    .form-contact-email {
-        margin-top: 30px;
-        padding: 0px 20px;
+.form-contact-email {
+    margin-top: 30px;
+    padding: 0px 20px;
+    .form-contact div label {
+        display: block;
     }
+}
 
+.img-contact {
+    width: 100%;
+}
+    
+.main-contact {
+    padding: 20px 5px
+}
 /* textarea de contacto */
 textarea {
-
     width: 25%;
     resize: none;
     border: 1px solid $maincolor;

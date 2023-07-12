@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 * {
   font-family: "Roboto", sans-serif;
   color: #e9f5ec;
@@ -12,7 +13,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.4em;
 }
 
 p {
@@ -89,6 +90,11 @@ section div a {
   color: #e9f5ec;
 }
 
+/* nuestros wallpaper */
+.img-fluid:hover {
+  filter: drop-shadow(4px 4px 15px rgba(2, 208, 201, 0.5));
+}
+
 section figure {
   border: 1px solid rgb(0, 112, 112);
   box-shadow: 5px 5px 10px #0a1a2a;
@@ -97,23 +103,21 @@ section figure {
 section figure a {
   text-decoration: none;
 }
-
-figure:hover {
+section figure:hover {
   filter: drop-shadow(0px 0px 5px rgba(1, 226, 226, 0.5));
 }
-figure p {
+section figure p {
   position: relative;
   top: 6px;
   cursor: pointer;
 }
-figure img {
+section figure img {
   transition: 0.5s ease;
 }
-figure img:hover {
+section figure img:hover {
   filter: contrast(115%);
 }
-
-figcaption {
+section figure figcaption {
   width: 100%;
   border-top: 1px solid rgb(1, 226, 226);
   border-bottom: 1px solid rgb(1, 226, 226);
@@ -122,12 +126,12 @@ figcaption {
   justify-content: center;
   align-items: center;
   bottom: 3px;
-  background-color: #112130;
+  background-color: #0a1a2a;
   text-decoration: none;
   transition: all 300ms ease;
   font-size: 0.8em;
 }
-figcaption:hover {
+section figure figcaption:hover {
   background-color: rgb(0, 112, 112);
 }
 
@@ -168,10 +172,10 @@ footer .group1-footer .red-social a:hover {
   background-color: rgb(1, 226, 226);
 }
 footer .group1-footer .red-social a h2 {
-  font-size: 20px;
+  font-size: 1.2em;
 }
 footer .group1-footer .box h2 {
-  font-size: 20px;
+  font-size: 1.2em;
 }
 footer .group1-footer .box p {
   color: #e9f5ec;
@@ -186,17 +190,14 @@ footer .group2-footer {
 footer .group2-footer small {
   font-size: 15px;
 }
-
-.group3-footer ul {
+footer .group3-footer ul {
   padding: 0;
 }
-
-.group3-footer ul li:hover {
+footer .group3-footer ul li:hover {
   background-color: rgb(0, 112, 112);
   transition: all 300ms ease;
 }
-
-.group3-footer ul li a {
+footer .group3-footer ul li a {
   color: #e9f5ec;
 }
 
@@ -302,6 +303,18 @@ footer .group2-footer small {
 }
 
 /*acceso*/
+.main-access {
+  padding: 0;
+}
+.main-access .h1-access {
+  align-items: center;
+  background-color: #0a141d;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .access {
   display: flex;
   gap: 60px;
@@ -314,14 +327,13 @@ footer .group2-footer small {
 .access div input {
   width: 300px;
 }
-
-.h1-access {
-  align-items: center;
-  background-color: #0a141d;
-  height: 8vh;
+.access .acceso {
   display: flex;
-  justify-content: center;
-  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.access .acceso div label {
+  display: block;
 }
 
 .div-password {
@@ -336,34 +348,9 @@ footer .group2-footer small {
   margin-top: 60px;
 }
 
-.form-contact div label {
-  display: block;
-}
-
-.acceso {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.acceso div label {
-  display: block;
-}
-
 .button-access {
   position: relative;
   top: 5px;
-}
-
-.img-contact {
-  width: 100%;
-}
-
-.main-contact {
-  padding: 20px 5px;
-}
-
-.main-access {
-  padding: 0;
 }
 
 .box-support {
@@ -388,6 +375,17 @@ footer .group2-footer small {
 .form-contact-email {
   margin-top: 30px;
   padding: 0px 20px;
+}
+.form-contact-email .form-contact div label {
+  display: block;
+}
+
+.img-contact {
+  width: 100%;
+}
+
+.main-contact {
+  padding: 20px 5px;
 }
 
 /* textarea de contacto */
@@ -428,11 +426,23 @@ textarea:hover {
   color: rgb(255, 255, 255);
 }
 .button-right-index:hover {
-  background-color: rgb(0, 86, 108);
+  background-color: rgb(0, 112, 112);
   transition: all 300ms ease;
 }
 
 /*acceso*/
+.main-access {
+  padding: 0;
+}
+.main-access .h1-access {
+  align-items: center;
+  background-color: #0a141d;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .access {
   display: flex;
   gap: 60px;
@@ -445,14 +455,13 @@ textarea:hover {
 .access div input {
   width: 300px;
 }
-
-.h1-access {
-  align-items: center;
-  background-color: #0a141d;
-  height: 8vh;
+.access .acceso {
   display: flex;
-  justify-content: center;
-  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.access .acceso div label {
+  display: block;
 }
 
 .div-password {
@@ -467,41 +476,23 @@ textarea:hover {
   margin-top: 60px;
 }
 
-.form-contact div label {
-  display: block;
-}
-
-.acceso {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.acceso div label {
-  display: block;
-}
-
 .button-access {
   position: relative;
   top: 5px;
 }
 
-.img-contact {
-  width: 100%;
+/* pequeño parche */
+@media screen and (max-width: 1523px) and (min-width: 1367px) {
+  .container-games figure,
+  .section-games figure {
+    width: 15%;
+  }
+  .container-games figure img,
+  .section-games figure img {
+    width: 90%;
+    margin: 5px;
+  }
 }
-
-.main-contact {
-  padding: 20px 5px;
-}
-
-.main-access {
-  padding: 0;
-}
-
-/* nuestros wallpaper */
-.img-fluid:hover {
-  filter: drop-shadow(4px 4px 15px rgba(2, 208, 201, 0.5));
-}
-
 @media screen and (width < 1367px) {
   .container-games,
   .section-games {
@@ -510,19 +501,7 @@ textarea:hover {
   }
   .container-games figure,
   .section-games figure {
-    width: 30%;
-  }
-  .container-games figure img,
-  .section-games figure img {
-    width: 90%;
-    margin: 5px;
-  }
-}
-/* pequeño parche */
-@media screen and (max-width: 1523px) and (min-width: 1367px) {
-  .container-games figure,
-  .section-games figure {
-    width: 15%;
+    width: 50%;
   }
   .container-games figure img,
   .section-games figure img {
@@ -544,6 +523,24 @@ textarea:hover {
   footer {
     padding: 0 10px;
   }
+  footer .group1-footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer .group1-footer .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    margin: 20px 10px;
+    background-color: #0a1a2a;
+    text-align: center;
+    transition: 300ms ease;
+  }
+  footer .group3-footer ul {
+    display: flex;
+    justify-content: center;
+  }
   .main-access {
     padding: 20px 30px;
   }
@@ -556,73 +553,48 @@ textarea:hover {
   .img-notice {
     display: none;
   }
-  .container-games,
-  .section-games {
-    padding: 5px;
-    gap: 0px;
-  }
-  .container-games figure,
-  .section-games figure {
-    width: 40%;
-  }
-  .container-games figure img,
-  .section-games figure img {
-    width: 90%;
-  }
-  .group1-footer {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .group1-footer .red-social a {
-    display: inline-block;
-    text-decoration: none;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    margin: 20px 10px;
-    background-color: #0d2033;
-    text-align: center;
-    transition: 300ms ease;
-  }
-  .group3-footer ul {
-    display: flex;
-    justify-content: center;
-  }
   /* tienda */
   h2 {
     font-size: 1.2em;
-  }
-  .section-search-store {
-    margin: 0px;
-    width: 100%;
   }
   .main-container {
     flex-direction: column;
     text-align: center;
   }
-  .category {
-    text-align: center;
-  }
-  .search-game {
+  .main-container .section-search-store {
+    margin: 0px;
     width: 100%;
-    display: none;
   }
-  .search-game-store input {
+  .main-container .section-search-store .search-game-store input {
     width: 100px;
-    background-color: rgb(33, 33, 33);
-    color: rgb(213, 213, 213);
+    background-color: #0a141d;
+    color: white;
     padding: 0px 4px;
   }
-  /* juegos ps4 y juegos ps5 */
-  .section-games {
-    padding: 5px;
-    justify-content: center;
-    gap: 0px;
-    display: flex;
+  .main-container .section-search-store .search-game-store input .category {
+    text-align: center;
   }
-  .section-games figure {
+  .main-container .container-games,
+  .main-container .section-games {
+    padding: 5px;
+    gap: 0px;
+  }
+  .main-container .container-games figure,
+  .main-container .section-games figure {
     width: 50%;
   }
-  .section-games figure img {
+  .main-container .container-games figure img,
+  .main-container .section-games figure img {
+    width: 90%;
+  }
+  .main-container .section-games {
+    justify-content: center;
+    display: flex;
+  }
+  .main-container .section-games figure {
+    width: 50%;
+  }
+  .main-container .section-games figure img {
     width: 90%;
   }
   /* contacto*/
@@ -636,11 +608,11 @@ textarea:hover {
     margin-top: 20px;
     line-height: 30px;
   }
-  .WhatsApp-contact {
+  .box-support .WhatsApp-contact {
     width: 100%;
     position: relative;
   }
-  .support-contact {
+  .box-support .support-contact {
     width: 100%;
     position: relative;
   }

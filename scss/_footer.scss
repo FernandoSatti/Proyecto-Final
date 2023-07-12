@@ -32,19 +32,19 @@ footer {
                 background-color: $maincolor;
             }
             h2{
-                font-size: 20px;
+                font-size: $textsm;
             }
         }
         .box{
             h2{
-                font-size: 20px;
+                font-size: $textsm;
             }
             p{
                 color: $textcolor;
                 margin-bottom: 10px;
             }    
             }
-    }
+        }
     .group2-footer{
         background-color:$bgblack2;
         padding: 15px 10px;
@@ -54,16 +54,17 @@ footer {
             font-size: 15px;
         }
     }
-}
-.group3-footer ul{
-    padding: 0;
-}
-    .group3-footer ul li:hover {
-        background-color: $bordercolor;
-        transition: all 300ms ease;
+    .group3-footer ul{
+        padding: 0;
+        li{
+            &:hover{
+                background-color: $bordercolor;
+                transition: all 300ms ease;
+            }
+            a{
+                color: $textcolor;
+            }
+        }
     }
+}
 
-    .group3-footer ul li a {
-        color: $textcolor;
-    }
-    

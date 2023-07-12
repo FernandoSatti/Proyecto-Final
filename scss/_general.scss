@@ -84,3 +84,8 @@ section div a {
     text-decoration: none;
     color:$textcolor;
 }
+
+/* nuestros wallpaper */
+.img-fluid:hover{
+    filter:drop-shadow(4px 4px 15px  rgba(2, 208, 201, 0.5));
+}
