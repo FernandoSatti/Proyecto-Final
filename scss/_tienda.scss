@@ -12,18 +12,17 @@
 }
 
 .category h3:hover{
-    background-color: $bordercolor;
-    transition: all 300ms ease;
+    background-color:$pack1-bgcolor;
+    background: $pack2-gradient;
+    transform: $scale;
+    transition: $transition300;
     border-radius: 4px;
 }
 
 /* juegosps4 y juegosps5 */
 .section-games {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+@include flex-wrap(center,wrap,center);
     gap: 20px;
-    text-align: center;
 }
 
 .main-container {

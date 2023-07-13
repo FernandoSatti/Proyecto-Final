@@ -13,6 +13,7 @@ $textlight: 300;
 $textbold: 600;
 
 //sizes
+$texthsm:0.8em;
 $textsm: 1.2em;
 $textmd: 1.4em;
 $textlg:2.2em;
@@ -23,5 +24,15 @@ $bgwhite: white;
 $bgblack1:#0a141d;
 $bgblack2: #0a1a2a;
 $bgblack3: #0d2033;
+
+//filter
+$box-shadow: drop-shadow(0px 0px 5px rgba(1, 226, 226, 0.5));
+
+//transition pack
+$pack1-bgcolor:rgb(2,0,36);
+$pack2-gradient:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,226,226,0.5564600840336135) 93%, rgba(0,212,255,1) 100%);
+$transition300: all 300ms ease;
+$scale:scale(1.1);
+
 
 

@@ -1,15 +1,12 @@
 .botonera{
+    @include flex-align(row,center,space-between);
     background-color:$black;
     padding: 4px 30px;
     width: 100%;
     left: 0;
     top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     height: auto;
     position: sticky;
-    flex-direction: row;
     z-index: 99;
         img{
             width: 150px;
@@ -25,9 +22,10 @@
             font-size: 0.9em;
             font-weight: $textbold;
             margin-right: 10px;
-            transition: color 0.3s ease-in-out;
             &:hover{
                 color: $maincolor;
+                transform: $scale;
+                transition: $transition300;
             }
         }
 }

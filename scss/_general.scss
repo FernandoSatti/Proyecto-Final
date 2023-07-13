@@ -52,7 +52,7 @@ main {
 input {
     border: none;
     outline: none;
-    background-color: transpaacnt;
+    background-color: transparent;
     font-family: inherit;
     font-size: inherit;
     color: inherit;
@@ -70,7 +70,10 @@ button {
     background-color: transparent;
     cursor: pointer;
     color:$black;
-    &:hover{background-color:$bordercolor};
+    &:hover{background:$bordercolor;
+            transform: scale(1.1);
+            transition: $transition300;    
+    }
 }
     div form button {
         color: white;
@@ -85,7 +88,21 @@ section div a {
     color:$textcolor;
 }
 
+textarea {
+    width: 25%;
+    resize: none;
+    border: 1px solid $maincolor;
+    border-radius: 5px;
+        background-color: transparent;  
+        &:hover{
+            border-color: $maincolor;
+        }
+}
+
 /* nuestros wallpaper */
 .img-fluid:hover{
-    filter:drop-shadow(4px 4px 15px  rgba(2, 208, 201, 0.5));
+    filter:$box-shadow;
+    transform: scale(1.3);
+    transition: $transition300;
+    
 }

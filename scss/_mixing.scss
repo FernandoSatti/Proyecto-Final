@@ -1,3 +1,23 @@
-@mixin flex($direction,$align,$justify,$wrap){
-    flex-direction: row;
+//extend
+
+//mixing
+@mixin flex($direction,$align,$justify){
+    display: flex;
+    flex-direction: $direction;
+    text-align: $align;
+    justify-content: $justify;
+}
+
+@mixin flex-align($direction,$align-items,$justify)
+{
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align-items;
+    justify-content: $justify;
+}
+@mixin flex-wrap($align,$wrap,$justify){
+    display: flex;
+    text-align: $align;
+    flex-wrap: $wrap;
+    justify-content: $justify;
 }
