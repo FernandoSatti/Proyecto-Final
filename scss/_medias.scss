@@ -51,6 +51,7 @@
                 background-color: $bgblack2;
                 text-align: center;
                 transition: 300ms ease;
+                justify-content: center;
             }
             grid-template-columns: repeat(1, 1fr);
         }
@@ -77,6 +78,7 @@
     /* tienda */
     h2 {
         font-size: $textsm;
+        text-align: center;
     }
     .main-container {
         flex-direction: column;

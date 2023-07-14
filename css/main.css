@@ -561,6 +561,7 @@ footer .group3-footer ul li a {
     background-color: #0a1a2a;
     text-align: center;
     transition: 300ms ease;
+    justify-content: center;
   }
   footer .group3-footer ul {
     display: flex;
@@ -581,6 +582,7 @@ footer .group3-footer ul li a {
   /* tienda */
   h2 {
     font-size: 1.2em;
+    text-align: center;
   }
   .main-container {
     flex-direction: column;
