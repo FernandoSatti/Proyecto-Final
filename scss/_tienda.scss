@@ -21,7 +21,7 @@
 
 /* juegosps4 y juegosps5 */
 .section-games {
-@include flex-wrap(center,wrap,center);
+    @include flex-wrap(center,wrap,center);
     gap: 20px;
 }
 
@@ -31,13 +31,17 @@
 }
 
 .search-game {
-    padding: 0px 30px;
+    padding: map-get($map: $padding-map, $key:p0-30 );
 }
 
 .search-game,.search-game-store {
     input{
-    background-color: $bgblack1;
-    color: $textcolor;
-        padding: 0px 4px;
+        background-color: $bgblack1;
+        color: $textcolor;
+        padding: 5px;
+        border-radius: 8px;
+        &:hover{
+            background-color: map-get($map: $colors-map, $key:oscuro2 );
+        }
     }
 }

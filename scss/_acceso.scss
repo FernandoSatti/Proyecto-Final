@@ -18,18 +18,20 @@
     height: auto;
     div {
         input{
-            width: 300px;
+        width: 300px;
         }
     }
     .acceso{
-        @include flex-align(column,center,center);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .div-password {
             position: relative;
             top: 20px;
         }
         .button-access {
             position: relative;
-            top: 5px;
+            top: 4px;
         }
         div {
             label{
@@ -46,7 +48,7 @@
     margin-top: 60px;
 }
 .btn-register{
-    margin-top: 5px;
+    @extend .button-access;
 }
 
 

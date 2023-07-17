@@ -33,7 +33,7 @@ body {
 }
 
 main {
-    padding: 20px 15px;
+    padding: map-get($map: $padding-map, $key:p20-15 );
     form{
         input{
         margin-bottom: 10px;
@@ -78,7 +78,7 @@ button {
 }
 
     div form button {
-        color: white;
+        color:$bgwhite;
     }
 
 div ul li {

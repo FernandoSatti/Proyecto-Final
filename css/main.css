@@ -305,7 +305,11 @@ footer .group3-footer ul li a {
 .search-game input, .search-game button, .search-game-store input, .search-game-store button {
   background-color: #0a141d;
   color: #e9f5ec;
-  padding: 0px 4px;
+  padding: 5px;
+  border-radius: 8px;
+}
+.search-game input:hover, .search-game button:hover, .search-game-store input:hover, .search-game-store button:hover {
+  background-color: #025f5f;
 }
 
 /*acceso*/
@@ -340,15 +344,14 @@ footer .group3-footer ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 .access .acceso .div-password {
   position: relative;
   top: 20px;
 }
-.access .acceso .button-access {
+.access .acceso .button-access, .access .acceso .btn-register {
   position: relative;
-  top: 5px;
+  top: 4px;
 }
 .access .acceso div label {
   display: block;
@@ -359,10 +362,6 @@ footer .group3-footer ul li a {
   height: auto;
   object-fit: cover;
   margin-top: 60px;
-}
-
-.btn-register {
-  margin-top: 5px;
 }
 
 .box-support {
@@ -481,15 +480,14 @@ footer .group3-footer ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 .access .acceso .div-password {
   position: relative;
   top: 20px;
 }
-.access .acceso .button-access {
+.access .acceso .button-access, .access .acceso .btn-register {
   position: relative;
-  top: 5px;
+  top: 4px;
 }
 .access .acceso div label {
   display: block;
@@ -500,10 +498,6 @@ footer .group3-footer ul li a {
   height: auto;
   object-fit: cover;
   margin-top: 60px;
-}
-
-.btn-register {
-  margin-top: 5px;
 }
 
 /* pequeño parche */
@@ -543,7 +537,7 @@ footer .group3-footer ul li a {
     padding: 0;
   }
   textarea {
-    width: auto;
+    width: 70%;
   }
   footer {
     padding: 0 10px;
@@ -606,7 +600,8 @@ footer .group3-footer ul li a {
     width: 100px;
     background-color: #0a141d;
     color: white;
-    padding: 0px 4px;
+    padding: 5px;
+    border-radius: 8px;
   }
   .main-container .section-search-store .search-game-store input .category, .main-container .section-search-store .search-game-store button .category {
     text-align: center;

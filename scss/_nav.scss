@@ -1,7 +1,7 @@
 .botonera{
     @include flex-align(row,center,space-between);
     background-color:$black;
-    padding: 4px 30px;
+    padding: map-get($map: $padding-map, $key:p4-30 );
     width: 100%;
     left: 0;
     top: 0;
