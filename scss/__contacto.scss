@@ -1,7 +1,9 @@
 .box-support {
+    @include flex(row,center,center);
     gap: 30px;
     line-height: 25px;
-    div a{
+    div{
+        a{
         border: 2px solid $bgwhite;
         border-radius: 6px;
         position: relative;
@@ -10,9 +12,9 @@
         &:hover{
             background-color: $pack1-bgcolor;
             background:$pack2-gradient;
+            }
         }
     }
-    @include flex(row,center,center)
 }
 .form-contact-email {
     margin-top: 30px;

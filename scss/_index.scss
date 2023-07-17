@@ -1,16 +1,11 @@
 /* index */
 .container-games {
     padding: 20px auto;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    text-align: center;
+    @include flex-wrap(center,wrap,space-evenly);
 }
 
 .div-h2-games {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex-align(row,center,space-between);
     margin-bottom: 5px;
 }
 
@@ -21,7 +16,7 @@
     margin: 5px;
     background-color: $black;
     font-family: bold;
-    color: rgb(255, 255, 255);
+    color: $bgwhite;
     &:hover{
         background: $pack1-bgcolor;
         background: $pack2-gradient;

@@ -6,10 +6,10 @@ section figure{
         text-decoration: none;
     }
     &:hover{
-        background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,226,226,0.5564600840336135) 93%, rgba(0,212,255,1) 100%);
+        background:$pack1-bgcolor;
+        background: $pack2-gradient;
         transform: scale(1.05);
-        transition: all 300ms ease;
+        transition: $transition300;
     }
     p{
     position: relative;
@@ -31,11 +31,11 @@ section figure{
         bottom: 3px;
         background-color:$bgblack2;
         text-decoration: none;
-        transition: all 300ms ease;
+        transition: $transition300;
         font-size: $texthsm;
         &:hover{
-            background: rgb(2,0,36);
-            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,226,226,0.5564600840336135) 93%, rgba(0,212,255,1) 100%);
+            background: $pack1-bgcolor;
+            background: $pack2-gradient;
             transition: all 1900ms ease;
         }
     }

@@ -10,7 +10,8 @@
     <title>GeoGame - Contacto</title>
     <link rel="shortcut icon" href="../iconos//LOGOGEOGAME.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/main.css"
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/animate.css">
 </head>
 
 <body>
@@ -53,7 +54,7 @@
         </nav>
         <img src="../img/banner.png" alt="kratos con auricular contaco de GeoGame" class="img-contact">
     </header>
-    <main class="main-contact">
+    <main class="main-contact wow fadeInRight">
         <section class="box-support">
             <div class="WhatsApp-contact">
                 <img src="../iconos/wp.webp" alt="WhatsApp">
@@ -74,7 +75,7 @@
                 <a href="#">Ver Preguntas de Usuarios</a>
             </div>
         </section>
-        <section class="form-contact-email">
+        <section class="form-contact-email wow fadeInRight">
             <h1>Contacto via email</h1>
             <form method="post" action="#" class="form-contact">
                 <div>
@@ -148,6 +149,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous">
+    </script>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
     </script>
 </body>
 </html>

@@ -34,18 +34,20 @@ body {
 
 main {
     padding: 20px 15px;
-    form input {
+    form{
+        input{
         margin-bottom: 10px;
         text-decoration: none;
         background-color:$black;
         border: 2px solid $bordercolor;
         border-radius: 6px;
-    }
-    form button {
-        border: 1px solid $maincolor;
-        border-radius: 8px;
-        padding: 5px;
-        color: $textcolor;
+        }
+        button {
+            border: 1px solid $maincolor;
+            border-radius: 8px;
+            padding: 5px;
+            color: $textcolor;
+        }
     }
 }
 
@@ -65,16 +67,16 @@ input {
 }
 
 button {
-    border: none;
-    outline: none;
-    background-color: transparent;
+    @extend input;
     cursor: pointer;
     color:$black;
-    &:hover{background:$bordercolor;
+    &:hover{
+            background:$bordercolor;
             transform: scale(1.1);
             transition: $transition300;    
     }
 }
+
     div form button {
         color: white;
     }

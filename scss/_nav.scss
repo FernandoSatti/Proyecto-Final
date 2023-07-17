@@ -8,26 +8,28 @@
     height: auto;
     position: sticky;
     z-index: 99;
-        img{
-            width: 150px;
+    img{
+        width: 150px;
         }
     ul{
         display: flex;
         list-style: none;
         text-align: center;
-    }
-        ul li a{
-            text-decoration: none;
-            color: $textcolor;
-            font-size: 0.9em;
-            font-weight: $textbold;
-            margin-right: 10px;
-            &:hover{
-                color: $maincolor;
-                transform: $scale;
-                transition: $transition300;
+        li{
+            a{
+                text-decoration: none;
+                color: $textcolor;
+                font-size: 0.9em;
+                font-weight: $textbold;
+                margin-right: 10px;
+                &:hover{
+                    color: $maincolor;
+                    transform: $scale;
+                    transition: $transition300;
+                }
             }
         }
+    }
 }
 .button-burger{
     background-color: $maincolor;

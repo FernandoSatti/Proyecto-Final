@@ -7,6 +7,7 @@
         width: 100%;
         @include flex(row,center,center)
     }
+    
 }
 .access {
     @include flex(row,center,center);
@@ -15,13 +16,13 @@
     top: 10px;
     position: relative;
     height: auto;
-    div input{
-        width: 300px;
+    div {
+        input{
+            width: 300px;
+        }
     }
     .acceso{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex-align(column,center,center);
         .div-password {
             position: relative;
             top: 20px;
@@ -30,8 +31,10 @@
             position: relative;
             top: 5px;
         }
-        div label{
+        div {
+            label{
             display: block;
+            }
         }
     }
     

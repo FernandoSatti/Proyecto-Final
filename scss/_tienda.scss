@@ -6,7 +6,7 @@
 .store-img{
     object-fit: cover;
     width: 100%;
-    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 5px 4px $box-shadow;
     border: 1px solid $maincolor;
     opacity: 0.9;
 }
@@ -34,8 +34,10 @@
     padding: 0px 30px;
 }
 
-    .search-game input,.search-game-store input {
-        background-color: $bgblack1;
-        color: $textcolor;
+.search-game,.search-game-store {
+    input{
+    background-color: $bgblack1;
+    color: $textcolor;
         padding: 0px 4px;
     }
+}

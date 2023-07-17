@@ -8,7 +8,7 @@
             margin: 5px;
         }
     }
-    }
+}
 
     @media screen and (width < 1367px){
     .container-games,
@@ -41,7 +41,10 @@
     footer {
         padding: 0 10px;
         .group1-footer  {
-            .red-social a{
+            grid-template-columns: repeat(1, 1fr);
+            .red-social{
+                text-align: center;
+                a{ 
                 display: inline-block;
                 text-decoration: none;
                 width: 55px;
@@ -52,13 +55,23 @@
                 text-align: center;
                 transition: 300ms ease;
                 justify-content: center;
-            }
-            grid-template-columns: repeat(1, 1fr);
+                }
+            }   
         }
-        .group3-footer ul {
-            display: flex;
+        .group3-footer ul{
+            padding: 0;
             justify-content: center;
+            display: flex;
+            li{
+                a{
+                    color: $textcolor;
+                }
+            }
         }
+    }
+    
+    div .box{
+        text-align: center;
     }
     
     .main-access {
@@ -80,6 +93,7 @@
         font-size: $textsm;
         text-align: center;
     }
+    
     .main-container {
         flex-direction: column;
         text-align: center;
