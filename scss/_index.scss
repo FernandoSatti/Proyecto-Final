@@ -1,7 +1,11 @@
 /* index */
+.index-games-container{
+    overflow-x: hidden;
+}
 .container-games {
     padding: 20px auto;
     @include flex-wrap(center,wrap,space-evenly);
+    overflow-x: hidden
 }
 
 .div-h2-games {
