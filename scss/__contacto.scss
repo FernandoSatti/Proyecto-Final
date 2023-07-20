@@ -30,6 +30,7 @@
     
 .main-contact {
     padding: map-get($map: $padding-map, $key:p20-5 );
+    overflow-x: hidden;
 }
 
 

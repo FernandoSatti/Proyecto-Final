@@ -402,6 +402,7 @@ footer .group3-footer ul li a {
 
 .main-contact {
   padding: 20px 5px;
+  overflow-x: hidden;
 }
 
 /* index */
@@ -668,6 +669,9 @@ footer .group3-footer ul li a {
   }
   .img-access {
     display: none;
+  }
+  .index-games-container {
+    overflow-x: hidden;
   }
 }
 
