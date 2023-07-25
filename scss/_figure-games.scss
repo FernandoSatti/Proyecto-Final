@@ -8,7 +8,7 @@ section figure{
     &:hover{
         background:$pack1-bgcolor;
         background: $pack2-gradient;
-        transform: scale(1.05);
+        transform: scale(0.95);
         transition: $transition300;
     }
     p{

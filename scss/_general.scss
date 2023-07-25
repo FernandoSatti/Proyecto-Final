@@ -29,7 +29,7 @@ h1,h2,h3 {
 }
 
 body {
-    background-image: url(../background-img/azul-img.jpg);
+    background-image: url(../background-img/azul-img.webp);
 }
 
 main {
@@ -111,3 +111,45 @@ textarea {
 .img-wp{
     overflow: hidden;
 }
+
+/*error 404*/
+.main-404{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    ul{
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        li{
+            list-style: none;
+            line-height: 30px;
+            a{
+                text-decoration: none;
+                color: $maincolor;
+            }
+        }
+    }
+}
+.img-404-container{
+    display: flex;
+    justify-content: center;
+    .img-404{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin: 20px;
+    }
+    
+}
+
+p{
+    a{
+        text-decoration: none;
+        color: $maincolor;
+    }
+}
+
+

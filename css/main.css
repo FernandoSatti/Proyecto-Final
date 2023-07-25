@@ -31,7 +31,7 @@ h1, h2, h3 {
 }
 
 body {
-  background-image: url(../background-img/azul-img.jpg);
+  background-image: url(../background-img/azul-img.webp);
 }
 
 main {
@@ -111,6 +111,44 @@ textarea:hover {
   overflow: hidden;
 }
 
+/*error 404*/
+.main-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+.main-404 ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+.main-404 ul li {
+  list-style: none;
+  line-height: 30px;
+}
+.main-404 ul li a {
+  text-decoration: none;
+  color: rgb(1, 226, 226);
+}
+
+.img-404-container {
+  display: flex;
+  justify-content: center;
+}
+.img-404-container .img-404 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+p a {
+  text-decoration: none;
+  color: rgb(1, 226, 226);
+}
+
 section figure {
   border: 1px solid rgb(0, 112, 112);
   box-shadow: drop-shadow(0px 0px 5px rgba(1, 226, 226, 0.5));
@@ -122,7 +160,7 @@ section figure a {
 section figure:hover {
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(1, 226, 226, 0.556460084) 93%, rgb(0, 212, 255) 100%);
-  transform: scale(1.05);
+  transform: scale(0.95);
   transition: all 300ms ease;
 }
 section figure p {
