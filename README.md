@@ -1,42 +1,26 @@
+<h1> Proyecto final de desarrollo web Coder house - Geogame</h1>
+<br>
 
-# pre-entrega3-satti-fernando😎✌️
-repository: https://github.com/FernandoSatti/pre-entrega3.git
+<h2>Introducción</h2>
+mi nombre es fernando satti y este es mi proyecto final de desarrollo web para coder house. al principio realicé unos wireframe para esquematizar lo que seria mi pagina web.
+mientras iba avanzando en el curso, se me fueron cambiando las ideas. logrando asi mejorar a mi gusto mi pagina web mientras avanzaban mis conocimientos.
+ahora mismo me encuentro estudiando inglés y aprendiendo por mi cuenta. espero algún dia volverme un gran programador.
+<br>
+<br>
 
-deployment: https://fernandosatti.github.io/pre-entrega3/
+<h2>barra de navegación</h2>
+ a continuación procederé a mostrar el cambio entre lo que fue mi bosquejo del proyecto y a lo que llegué el dia de hoy (25 julio 2023)
+ 
 
-mi nombre es fernando satti y este es el resultado de mi proyecto en el curso de desarrollo web de Coder House
+<br>
+<br>
 
-el sitio web es una pagina de venta de juegos digitales.
+<h2>Herramientas utilizadas</h2>
 
-El desarrollo de éste proyecto incluyó:
-
-uso en VSC:
-
-HTML5
-    SASS
-    CSS
-
-Librerias usadas:
-    Boostrap v5.3 (carrousel y nav)
-    wow.js ( para las animaciones)
-
-Deployment:
-    NodeJs
-    Git / GitHub
-    host:
-        Netlify
-
-se modificó para la finalización del proyecto:
-    
-    modificaciones generales para la mejora del SEO:
-
-        - se cambió el tamaño y el formato de jpg a webp las imagenes del carrousel entre otras.
-
-        - se optimizó la imagen de fondo a una resolucion mas chica y cambiando su formato.
-
-    - se eliminó un error de scroll horizontal en la zona de tienda.
-    
-    - se creó intencionalmente en el apartado de index.html en la seccion del footer. si se selecciona "terminos y condiciones" se visualizará el error404 del sitio.
-    
-    
+Las herramientas utilizadas para el proyecto fueron las siguientes:
+- Visual Studio Code como editor de código fuente
+- Node.js para la implementación de SASS
+- Github para el almacenamiento del repositorio
+- Wireframe.cc para esquematizar la estructura de las diferentes páginas del proyecto
+<br>
 
