@@ -11,6 +11,7 @@ ahora mismo me encuentro estudiando inglés y aprendiendo por mi cuenta. espero 
 <h2>barra de navegación</h2>
  a continuación procederé a mostrar el cambio entre lo que fue mi bosquejo del proyecto y a lo que llegué el dia de hoy (25 julio 2023)
  esta es la nav que tenia pensado:
+ 
 ![image](https://raw.githubusercontent.com/FernandoSatti/pre-entrega3/master/img-readme/wireframe-index-games.webp)
 
 <br>
