@@ -143,6 +143,10 @@ https://fernandosatti.github.io/pre-entrega3/
 <h3>Dominio en Netlify</h3>
 
 https://geogamer.netlify.app
+<br>
 
 Gracias por haber llegado hasta acá!
+
+<br>
+
 ![image](https://github.com/FernandoSatti/pre-entrega3/blob/master/img-readme/jimcarrey.gif)
