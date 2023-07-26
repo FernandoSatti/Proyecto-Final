@@ -2,25 +2,26 @@
 <br>
 
 <h2>Introducción</h2>
-mi nombre es Fernando Ismael Satti y este es el proyecto final de Desarrollo Web para Coder House. este proyecto Consta de 1 sitio web con 7 páginas desarrolladas en lenguaje HTML y CSS sumandole la pagina de error404.
-al principio realicé unos wireframe para esquematizar lo que seria mi pagina web.
-mientras iba avanzando en el curso, se me fueron cambiando las ideas. logrando asi mejorar a mi gusto el sitio web mientras avanzaban mis conocimientos.
+Mi nombre es Fernando Ismael Satti y este es el proyecto final de Desarrollo Web para Coder House. Este proyecto Consta de 1 sitIo web con 7 páginas desarrolladas en lenguaje HTML y CSS sumandole la pagina de error404.
+Al principio realicé unos wireframe para esquematizar lo que seria mi página web.
+Mientras iba avanzando en el curso, se me fueron cambiando las ideas. Logrando asi mejorar a mi gusto el sitio web mientras avanzaban mis conocimientos.
 <br>
 <br>
 
 <h2>Barra De Navegación y header</h2>
- a continuación procederé a mostrar el cambio entre lo que fue mi bosquejo del proyecto y a lo que llegué el dia de hoy (25 julio 2023)
+ A continuación procederé a mostrar el cambio entre lo que fue mi bosquejo del proyecto y a lo que llegué el dia de hoy (25 julio 2023).
 
- esta es la nav que se tenia pensada:
+ Esta es la nav que se tenia pensada:
 <br>
 <br>
  
 ![image](https://raw.githubusercontent.com/FernandoSatti/pre-entrega3/master/img-readme/wireframe-index.webp)
-modificaciones de la nav:
-- se decidió colocar los link de la nav dentro de la misma caja, y no en cajas separadas.
-- el carrito de compras, se retiró por el momento. por cuestion de futuro diseño 
-- al header se le agregó un carrousel con boostrap v5.3
-- el boton de acceder fue reemplazado por un link denominado "acceso"
+
+Modificaciones de la nav:
+- Se decidió colocar los link de la nav dentro de la misma caja, y no en cajas separadas.
+- El carrito de compras, se retiró por el momento. por cuestión de futuro diseño 
+- El header se le agregó un carrousel con boostrap v5.3
+- El boton de acceder fue reemplazado por un link denominado "acceso"
 <br>
 <br>
 
@@ -30,36 +31,36 @@ Teniendo este resultado:
 
 ![image](https://raw.githubusercontent.com/FernandoSatti/pre-entrega3/master/img-readme/wireframe-index-now.webp)
 
-En el catalogo de juegos del index se respeto bastante su diseño inicial.
+En el catalogo de juegos del index se respetó bastante su diseño inicial.
 
-utilizando flex box para colocar todos los productos de la tienda.
+Se utilizó flex box para colocar todos los productos de la tienda.
 
- esta es la vista del wireframe:
+ Esta es la vista del wireframe:
  <br>
 <br>
 
 ![image](https://raw.githubusercontent.com/FernandoSatti/pre-entrega3/master/img-readme/wireframe-index-games.webp)
 
-el diseño final lo hice mas grande que el que se muestra en el wireframe. quedando este resultado:
+El diseño final se realizó mas grande que el que se muestra en el wireframe. Quedando este resultado:
 <br>
 <br>
 
 ![image](https://raw.githubusercontent.com/FernandoSatti/pre-entrega3/master/img-readme/games-now.webp)
 
-se puede imaginar que el apartado de juegos ps4 se encuentra igual que este pero por debajo. por cuestion de tamaño no se subio en este apartado.
+Se puede imaginar que el apartado de juegos ps4 se encuentra igual que éste. Por cuestión de tamaño no se subió en este apartado.
 
-en la pagina web de tienda este fue su wireframe:
+En la pagina web de tienda este fue su wireframe:
 <br>
 <br>
 
 ![image](https://raw.githubusercontent.com/FernandoSatti/pre-entrega3/master/img-readme/wireframe-tienda.webp)
 
-con respecto a éste. tuve unos pequeños cambios al respecto:
-- el titulo tienda fue desplazado hacia la izquierda.
-- se eliminaron los bordes y el background que rodeaban al texto "tienda".
-- se agrego un botón textual en lugar de una lupa.
-- se agregó una imagen de promoción arriba de la tienda.
-- se eliminó la caja visible en la sección de catalogo.
+Con respecto a éste. tuve unos pequeños cambios al respecto:
+- El título tienda fue desplazado hacia la izquierda.
+- Se eliminaron los bordes y el background que rodeaban al texto "Tienda".
+- Se agrego un botón textual en lugar de una lupa.
+- Se agregó una imagen de promoción arriba de la tienda.
+- Se eliminó la caja visible en la sección de catalogo.
 <br>
 <br>
 
@@ -70,13 +71,12 @@ con respecto a éste. tuve unos pequeños cambios al respecto:
 
 <h2>Responsive</h2>
 
-todas las paginas del sitio web se encuentran adaptadas en todos los dispositivos hasta una resolución de 280px
+Todas las páginas del sitio web se encuentran adaptadas en todos los dispositivos hasta una resolución de 280px
 <br>
 
 <h2>Error404</h2>
-en el index.html en la sección del footer (el cual fue diseñado con grid) en los apartados de "terminos y condiciones" "preguntas frecuentes" "ayuda" se colocó un enlace intencional.
-
-para visualizar el error404 de la pagina de geogame.
+En el index.html en la sección del footer (el cual fue diseñado con grid) en los apartados de "terminos y condiciones" "preguntas frecuentes" "ayuda" se colocó un enlace intencional
+para visualizar el error404 de la página de Geogame.
 <br>
 <h2>Lenguajes utilizados</h2>
 
@@ -100,17 +100,17 @@ Frameworks:
 
 Las herramientas utilizadas para el proyecto fueron las siguientes:
 - Wireframe.cc para realizar el anticipo del sitio.
-- Visual studio code como codigo fuente.
+- Visual studio code como código fuente.
 - Node.js para la utilización de SASS.
 - Github para el almacenamiento del repositorio.
 - Netlify para el hosteo del sitio web.
-- boostrap para el carrousel del header y el desarrollo de la nav.
-- wow.js para las animaciones del sitio.
+- Boostrap para el carrousel del header y el desarrollo de la nav.
+- Wow.js para las animaciones del sitio.
 <br>
 
 <h2>Wireframes</h2>
-dejo todos los bosquejos que se usaron a un inicio como "expectativa" de diseño. fui cambiando de decisión a medida que mis conocimentos avanzaban.
-asi que puede que no todo el diseño se haya respetado.
+Dejo todos los bosquejos que se usaron a un inicio como "expectativa" de diseño. se fue cambiando la decisión a medida que mis conocimentos avanzaban.
+Por ende puede que no todo el diseño se haya respetado.
 
 <h3>Vista Web</h3>
 
@@ -145,7 +145,7 @@ https://fernandosatti.github.io/pre-entrega3/
 https://geogamer.netlify.app
 <br>
 
-Gracias por haber llegado hasta acá!
+Gracias por haberme acompañado hasta acá!
 
 <br>
 
