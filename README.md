@@ -145,3 +145,4 @@ https://fernandosatti.github.io/pre-entrega3/
 https://geogamer.netlify.app
 
 Gracias por haber llegado hasta acá!
+![image](https://github.com/FernandoSatti/pre-entrega3/blob/master/img-readme/jimcarrey.gif)
