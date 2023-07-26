@@ -134,11 +134,11 @@ Por ende puede que no todo el diseño se haya respetado.
 
 <h3>Repositorio de Github</h3>
 
-https://github.com/FernandoSatti/pre-entrega3.git
+https://github.com/FernandoSatti/Proyecto-Final.git
 
 <h3>Deployment de Github Pages</h3>
 
-https://fernandosatti.github.io/pre-entrega3/
+https://fernandosatti.github.io/Proyecto-Final/
 
 <h3>Dominio en Netlify</h3>
 
