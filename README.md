@@ -93,7 +93,7 @@ Frameworks:
 ![image](https://raw.githubusercontent.com/FernandoSatti/pre-entrega3/master/img-readme/svg-readme/nodejs.svg)
 ![image](https://raw.githubusercontent.com/FernandoSatti/pre-entrega3/master/img-readme/svg-readme/sass.svg)
 
-<h2>sistema de control de versiones</h2>
+<h2>Sistema de control de versiones</h2>
 
 ![image](https://raw.githubusercontent.com/FernandoSatti/pre-entrega3/master/img-readme/svg-readme/githubpages.svg)
 ![image](https://raw.githubusercontent.com/FernandoSatti/pre-entrega3/master/img-readme/svg-readme/github.svg)
@@ -132,11 +132,11 @@ Por ende puede que no todo el diseño se haya respetado.
 
 <h2>Links</h2>
 
-<h3>repositorio de Github</h3>
+<h3>Repositorio de Github</h3>
 
 https://github.com/FernandoSatti/pre-entrega3.git
 
-<h3>deployment de Github Pages</h3>
+<h3>Deployment de Github Pages</h3>
 
 https://fernandosatti.github.io/pre-entrega3/
 
