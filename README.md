@@ -2,10 +2,9 @@
 <br>
 
 <h2>Introducción</h2>
-mi nombre es fernando satti y este es el proyecto final de desarrollo web para Coder House. este proyecto Consta de 1 sitio web con 7 páginas desarrolladas en lenguaje HTML y CSS.
+mi nombre es Fernando Ismael Satti y este es el proyecto final de Desarrollo Web para Coder House. este proyecto Consta de 1 sitio web con 7 páginas desarrolladas en lenguaje HTML y CSS sumandole la pagina de error404.
 al principio realicé unos wireframe para esquematizar lo que seria mi pagina web.
 mientras iba avanzando en el curso, se me fueron cambiando las ideas. logrando asi mejorar a mi gusto el sitio web mientras avanzaban mis conocimientos.
-ahora mismo me encuentro estudiando inglés y aprendiendo por mi cuenta. espero algún dia volverme un gran programador.
 <br>
 <br>
 
@@ -57,6 +56,7 @@ en la pagina web de tienda este fue su wireframe:
 
 con respecto a éste. tuve unos pequeños cambios al respecto:
 - el titulo tienda fue desplazado hacia la izquierda.
+- se eliminaron los bordes y el background que rodeaban al texto "tienda".
 - se agrego un botón textual en lugar de una lupa.
 - se agregó una imagen de promoción arriba de la tienda.
 - se eliminó la caja visible en la sección de catalogo.
@@ -143,3 +143,5 @@ https://fernandosatti.github.io/pre-entrega3/
 <h3>Dominio en Netlify</h3>
 
 https://geogamer.netlify.app
+
+Gracias por haber llegado hasta acá!
