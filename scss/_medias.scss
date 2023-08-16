@@ -8,6 +8,7 @@
             margin: 5px;
         }
     }
+    
 }
 
     @media screen and (width < 1367px){
@@ -23,7 +24,17 @@
             }
         }
     }
+    .father-right{
+        div{
+            p{
+                font-size: 0.8em;
+                line-height: 20px;
+            }
+        }
+    }
 }
+
+
 @media screen and (width < 768px) {
     /* index */
     nav {
@@ -169,4 +180,30 @@
     .index-games-container{
         overflow-x: hidden;
     }
-}
+
+    /*shop*/
+    .father-grid-shop{
+        flex-direction: column;
+        .img-shop{
+            padding: 40px;
+            img{
+                justify-content: center;
+                
+            }
+        }
+    }
+    .father-right{
+        div{
+            p{
+                width: 100%;
+            }
+        }
+        h1{
+            text-align: center;
+            
+        }
+    }
+    .button-shop{
+        width: auto;
+    }
+    }

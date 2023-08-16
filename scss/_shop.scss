@@ -1,0 +1,64 @@
+.father-grid-shop{
+    display: flex;
+    
+    .img-shop{
+        max-width: 100%;
+        padding: 20px;
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            
+        }
+    }
+}
+
+.father-right{
+    display: grid;
+    padding: 20px;
+    h1{
+        span{
+            color: grey;
+        }
+    }
+    div{
+        p{
+            font-size: 1.1em;
+            width: 50%;
+            line-height: 30px;
+            color: $maincolor;
+            display: inline-block;
+        }
+    }
+}
+
+.button-shop-container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.button-shop{
+    color: $textcolor;
+    width: 30vw;
+    position: relative;
+    
+
+}
+
+.small-img-shop-container{
+    display: flex;
+    max-width: 25%;
+    img{
+        object-fit: cover;
+        
+    }
+}
+
+.info-shop{
+    line-height: 40px;
+}
+
+
