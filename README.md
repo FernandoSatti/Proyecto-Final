@@ -35,6 +35,8 @@ En el catalogo de juegos del index se respetó bastante su diseño inicial.
 
 Se utilizó flex box para colocar todos los productos de la tienda.
 
+Se agregó en los juegos "among us" y "back 4 blood" una simulación de compra. puedes hacer click allí.
+
  Esta es la vista del wireframe:
  <br>
 <br>
