@@ -149,6 +149,24 @@ p a {
   color: rgb(1, 226, 226);
 }
 
+body::-webkit-scrollbar {
+  width: 13px;
+  background: #0a1a2a;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(1, 226, 226);
+  border-radius: 50px;
+  border: 1px solid #0a141d;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(16, 96, 99);
+}
+
+.carousel-fade {
+  overflow: hidden;
+}
+
 section figure {
   border: 1px solid rgb(0, 112, 112);
   box-shadow: drop-shadow(0px 0px 5px rgba(1, 226, 226, 0.5));
@@ -300,8 +318,9 @@ footer .group3-footer ul li a {
   background-color: rgb(1, 226, 226);
 }
 
-.logo {
-  width: 200px;
+#logo:hover {
+  transition: 300ms ease;
+  transform: scale(1.1);
 }
 
 /* tienda */

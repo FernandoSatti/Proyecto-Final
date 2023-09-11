@@ -152,4 +152,18 @@ p{
     }
 }
 
-
+body::-webkit-scrollbar{
+    width: 13px;
+    background: $black;
+}
+body::-webkit-scrollbar-thumb{
+    background: $maincolor;
+    border-radius: 50px;
+    border: 1px solid $bgblack1;
+    &:hover{
+        background: rgb(16, 96, 99);
+    }
+}
+.carousel-fade{
+    overflow: hidden;
+}

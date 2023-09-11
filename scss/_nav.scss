@@ -34,6 +34,8 @@
 .button-burger{
     background-color: $maincolor;
 }
-.logo {
-    width: 200px
+#logo:hover {
+    transition: 300ms ease;
+    transform: scale(1.1);
+    
 }
