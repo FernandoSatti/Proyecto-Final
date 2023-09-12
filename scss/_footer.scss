@@ -21,13 +21,16 @@ footer {
         grid-gap: 50px;
         padding: map-get($map: $padding-map, $key:p45-10 );
         .red-social a{
+            img{
+                stroke: white;
+            }
             display: inline-block;
             text-decoration: none;
             width: 60px;
             height: 60px;
             line-height: 60px;
             margin: 20px 10px;
-            background-color:$bgblack3;
+            background-color:rgb(187, 186, 186);
             text-align: center;
             transition: $transition300;
             &:hover{
@@ -69,4 +72,6 @@ footer {
         }
     }
 }
-
+.svg-link {
+    fill: white;
+}
